@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSRoleE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_gYRzAOSkEeeLzZWKjLxbFA" name="System_Interactive" description="[EN:User][FR:User]" timestamp="1546846947322" digestValue="4be45736ef6d7bbd3f033f827a4fad3d" lastServerName="MDM_Sandbox">
+  <specification xmi:id="_WxlUgCzwEeiTgdVJoyQt8w" objectType=""/>
+  <specification xmi:id="_WxlUgSzwEeiTgdVJoyQt8w" objectType="Transformer V2"/>
+  <specification xmi:id="_WxlUgizwEeiTgdVJoyQt8w" objectType="Data Cluster">
+    <instance xmi:id="_WxlUgyzwEeiTgdVJoyQt8w" instanceName="crossreferencing"/>
+    <instance xmi:id="_WxlUhCzwEeiTgdVJoyQt8w" instanceName="Customer" writable="true"/>
+    <instance xmi:id="_WxlUhSzwEeiTgdVJoyQt8w" instanceName="SearchTemplate"/>
+    <instance xmi:id="_WxlUhizwEeiTgdVJoyQt8w" instanceName="UpdateReport"/>
+    <instance xmi:id="_WxlUhyzwEeiTgdVJoyQt8w" instanceName="PROVISIONING"/>
+    <instance xmi:id="_WxlUiCzwEeiTgdVJoyQt8w" instanceName="CONF"/>
+  </specification>
+  <specification xmi:id="_WxlUiSzwEeiTgdVJoyQt8w" objectType="Transformer"/>
+  <specification xmi:id="_WxlUiizwEeiTgdVJoyQt8w" objectType="Routing Order V2 Active"/>
+  <specification xmi:id="_WxuecCzwEeiTgdVJoyQt8w" objectType="Service"/>
+  <specification xmi:id="_WxuecSzwEeiTgdVJoyQt8w" objectType="Stored Procedure"/>
+  <specification xmi:id="_WxuecizwEeiTgdVJoyQt8w" objectType="View">
+    <instance xmi:id="_WxuecyzwEeiTgdVJoyQt8w" instanceName="Browse_items_CustomerMaster" writable="true"/>
+    <instance xmi:id="_WxuedCzwEeiTgdVJoyQt8w" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_WxuedSzwEeiTgdVJoyQt8w" instanceName="Browse_items_CustomerXRef" writable="true"/>
+    <instance xmi:id="_WxuedizwEeiTgdVJoyQt8w" instanceName="Browse_items_STDCustomer" writable="true"/>
+    <instance xmi:id="_WxuedyzwEeiTgdVJoyQt8w" instanceName="Browse_items_SourceCustomer" writable="true"/>
+    <instance xmi:id="_lNwY8DC7EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_rDIQ4DC7EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_wpT2QDC7EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_za2w0DC7EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_0j7RsDC7EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_12RDUDC7EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_2_sJgDC7EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_4N0wkDC7EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_5ZJUMDC7EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_4_lfgDDNEeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_VUlQEDDXEeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_WKuN4DDXEeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_9Y-ZQDDbEeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_bhfPgDDdEeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_Y_DyMDDhEeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_kvlkgDDiEeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_lkGxsDDiEeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_vL1SMDDoEeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy1" writable="true"/>
+    <instance xmi:id="_YaMlEDD2EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_ZPa84DD2EeitXM8H6I9w3g" instanceName="Browse_items_CustomerHierarchy" writable="true"/>
+    <instance xmi:id="_BCsKQDJCEeiCQrDiSKuuUw" instanceName="Browse_items_CustomerXRef" writable="true"/>
+    <instance xmi:id="_HN-AwDJCEeiCQrDiSKuuUw" instanceName="Browse_items_CustomerMaster" writable="true"/>
+    <instance xmi:id="_cqKi8DJKEeiCQrDiSKuuUw" instanceName="Browse_items_CustomerXRef" writable="true"/>
+    <instance xmi:id="_s9nOIDMMEeiiQsQyfnADXg" instanceName="Browse_items_CDMCustomerHierarchy" writable="true"/>
+    <instance xmi:id="_uDaYkDMMEeiiQsQyfnADXg" instanceName="Browse_items_CDMServiceAccount" writable="true"/>
+    <instance xmi:id="_vNrMQDMMEeiiQsQyfnADXg" instanceName="Browse_items_CDMSTDCustomer" writable="true"/>
+    <instance xmi:id="_wUcAADMMEeiiQsQyfnADXg" instanceName="Browse_items_CDMCustomerMaster" writable="true"/>
+    <instance xmi:id="_xZ4lIDMMEeiiQsQyfnADXg" instanceName="Browse_items_CDMSourceCustomer" writable="true"/>
+    <instance xmi:id="_AXyH0DMNEeiiQsQyfnADXg" instanceName="Browse_items_CDMCustomerXRef" writable="true"/>
+    <instance xmi:id="_CIL9oFS7EeitCOxbyTTPBQ" instanceName="Browse_items_PDMProductMaster"/>
+    <instance xmi:id="_EEZysFS7EeitCOxbyTTPBQ" instanceName="Browse_items_PDMSourceRecord"/>
+    <instance xmi:id="_GE_xcFS7EeitCOxbyTTPBQ" instanceName="Browse_items_PDMProductHierarchy"/>
+    <instance xmi:id="_-b5jAFTDEeitCOxbyTTPBQ" instanceName="Browse_items_PDMPriceItem"/>
+    <instance xmi:id="_BgiYsFTEEeitCOxbyTTPBQ" instanceName="Browse_items_PDMUsageRate"/>
+    <instance xmi:id="_Eo_-cFTEEeitCOxbyTTPBQ" instanceName="Browse_items_PDMVolumeDiscount"/>
+    <instance xmi:id="_HtS14FTEEeitCOxbyTTPBQ" instanceName="Browse_items_PDMPriceBook"/>
+    <instance xmi:id="_iWFPcGoaEeiMNZ2xeznbdg" instanceName="Browse_items_CDMCustomerHierarchy" writable="true"/>
+    <instance xmi:id="_BPO9gG4DEeiZGctqEnHeLw" instanceName="Browse_items_PDMProductMaster" writable="true"/>
+    <instance xmi:id="_YFFMgG4GEeiZGctqEnHeLw" instanceName="Browse_items_PDMPriceItem" writable="true"/>
+    <instance xmi:id="_ihgjcMxeEeiIjbufNajQzw" instanceName="Browse_items_CDMCustomerXRef" writable="true"/>
+    <instance xmi:id="__OnTMMyBEeiIjbufNajQzw" instanceName="Browse_items_CDMCustomerHierarchy" writable="true"/>
+    <instance xmi:id="_JcRaAMyCEeiIjbufNajQzw" instanceName="Browse_items_CDMCustomerHierarchy" writable="true"/>
+    <instance xmi:id="_Q5xtEM3lEeiu9sa9gkA5ng" instanceName="Browse_items_CDMCustomerHierarchy" writable="true"/>
+    <instance xmi:id="_hN-yoANfEemEXtXiTircFA" instanceName="Browse_items_Employee" writable="true"/>
+    <instance xmi:id="_m00fUANfEemEXtXiTircFA" instanceName="Browse_items_Company" writable="true"/>
+    <instance xmi:id="_spQjIANfEemEXtXiTircFA" instanceName="Browse_items_Entitlement" writable="true"/>
+    <instance xmi:id="_yWo8sANfEemEXtXiTircFA" instanceName="Browse_items_Asset" writable="true"/>
+    <instance xmi:id="_3mDA0ANfEemEXtXiTircFA" instanceName="Browse_items_Department" writable="true"/>
+    <instance xmi:id="_-SY9AANfEemEXtXiTircFA" instanceName="Browse_items_Employee" writable="true"/>
+    <instance xmi:id="_IK9koANgEemEXtXiTircFA" instanceName="Browse_items_Company" writable="true"/>
+    <instance xmi:id="_QHum4ANgEemEXtXiTircFA" instanceName="Browse_items_Entitlement" writable="true"/>
+    <instance xmi:id="_a3HhwANgEemEXtXiTircFA" instanceName="Browse_items_Asset" writable="true"/>
+    <instance xmi:id="_hjEcYANgEemEXtXiTircFA" instanceName="Browse_items_Department" writable="true"/>
+    <instance xmi:id="_nDSjsANgEemEXtXiTircFA" instanceName="Browse_items_Phone" writable="true"/>
+    <instance xmi:id="_svc1QANgEemEXtXiTircFA" instanceName="Browse_items_Address" writable="true"/>
+    <instance xmi:id="_xoF_MANgEemEXtXiTircFA" instanceName="Browse_items_Phone" writable="true"/>
+    <instance xmi:id="_4WNdAANgEemEXtXiTircFA" instanceName="Browse_items_Address" writable="true"/>
+    <instance xmi:id="_MoeIQAdyEemra5LCKMGiRg" instanceName="Browse_items_CDMCustomerHierarchy" writable="true"/>
+    <instance xmi:id="_qrZwYAdyEemra5LCKMGiRg" instanceName="Browse_items_CDMCustomerHierarchy" writable="true"/>
+    <instance xmi:id="_nFYeQAkaEempx925ECqQnA" instanceName="Browse_items_CDMHierarchyQueue"/>
+    <instance xmi:id="_xFokUAmgEemo8f2jeyVMhA" instanceName="Browse_items_HierarchyXRef" writable="true"/>
+    <instance xmi:id="_I_44wAp3EemD--SL2GOOiQ" instanceName="Browse_items_HierarchyXRef" writable="true"/>
+    <instance xmi:id="_M1YjoAp3EemD--SL2GOOiQ" instanceName="Browse_items_HierarchyXRef1" writable="true"/>
+    <instance xmi:id="_BFAQYAp4EemD--SL2GOOiQ" instanceName="Browse_items_HierarchyXRef" writable="true"/>
+    <instance xmi:id="_gktXgAqDEemacIJJg0hVTg" instanceName="Browse_items_HierarchyXRef" writable="true"/>
+    <instance xmi:id="_Wryi4AqJEemacIJJg0hVTg" instanceName="Browse_items_HierarchyXRef" writable="true"/>
+    <instance xmi:id="_1tXGEAqgEemacIJJg0hVTg" instanceName="Browse_items_CDMCustomerHierarchy" writable="true"/>
+    <instance xmi:id="_UINTAA9DEemOBISkCmrhbQ" instanceName="Browse_items_CustomerBillingHierarchy" writable="true"/>
+  </specification>
+  <specification xmi:id="_WxueeCzwEeiTgdVJoyQt8w" objectType="Routing Rule">
+    <instance xmi:id="_WxueeSzwEeiTgdVJoyQt8w" instanceName=".*" writable="true"/>
+  </specification>
+  <specification xmi:id="_WxueeizwEeiTgdVJoyQt8w" objectType="Background Job"/>
+  <specification xmi:id="_WxueeyzwEeiTgdVJoyQt8w" objectType="Role">
+    <instance xmi:id="_WxuefCzwEeiTgdVJoyQt8w" instanceName=".*" writable="true"/>
+  </specification>
+  <specification xmi:id="_WxuefSzwEeiTgdVJoyQt8w" admin="true" objectType="Item"/>
+  <specification xmi:id="_WxuefizwEeiTgdVJoyQt8w" objectType="Routing Engine V2"/>
+  <specification xmi:id="_WxuefyzwEeiTgdVJoyQt8w" objectType="Data Model">
+    <instance xmi:id="_WxuegCzwEeiTgdVJoyQt8w" instanceName="crossreferencing" writable="true"/>
+    <instance xmi:id="_WxuegSzwEeiTgdVJoyQt8w" instanceName="Customer" writable="true"/>
+    <instance xmi:id="_WxuegizwEeiTgdVJoyQt8w" instanceName="SearchTemplate"/>
+    <instance xmi:id="_WxuegyzwEeiTgdVJoyQt8w" instanceName="UpdateReport"/>
+    <instance xmi:id="_WxuehCzwEeiTgdVJoyQt8w" instanceName="PROVISIONING"/>
+    <instance xmi:id="_WxuehSzwEeiTgdVJoyQt8w" instanceName="CONF"/>
+  </specification>
+  <specification xmi:id="_WxuehizwEeiTgdVJoyQt8w" objectType="Transformer Plugin V2"/>
+  <specification xmi:id="_WxuehyzwEeiTgdVJoyQt8w" objectType="Routing Order V2 Failed"/>
+  <specification xmi:id="_WxueiCzwEeiTgdVJoyQt8w" objectType="Transformer Plugin"/>
+  <specification xmi:id="_WxueiSzwEeiTgdVJoyQt8w" objectType="Menu">
+    <instance xmi:id="_WxueiizwEeiTgdVJoyQt8w" instanceName="Hierarchy">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_WxueiyzwEeiTgdVJoyQt8w" instanceName="Search">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_WxuejCzwEeiTgdVJoyQt8w" instanceName="BonitaWorkflowTasks">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="2"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_WxuejSzwEeiTgdVJoyQt8w" instanceName="WelcomePortal" writable="true">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="0"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_WxuejizwEeiTgdVJoyQt8w" instanceName="Datastewardship">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_WxuejyzwEeiTgdVJoyQt8w" instanceName="RecycleBin" writable="true">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="5"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_WxuekCzwEeiTgdVJoyQt8w" instanceName="CrossReference">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_WxuekSzwEeiTgdVJoyQt8w" instanceName="UpdateReport" writable="true">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="4"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_WxuekizwEeiTgdVJoyQt8w" instanceName="BrowseRecordsInStaging" writable="true">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_WxuekyzwEeiTgdVJoyQt8w" instanceName="BrowseRecords" writable="true">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+  </specification>
+  <specification xmi:id="_WxuelCzwEeiTgdVJoyQt8w" objectType="Routing Order V2 Completed"/>
+  <specification xmi:id="_WxuelSzwEeiTgdVJoyQt8w" objectType="Configuration Info"/>
+</mdmserverobject:WSRoleE>

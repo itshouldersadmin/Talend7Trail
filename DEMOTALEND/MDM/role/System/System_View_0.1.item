@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSRoleE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_hFbz8OSkEeeLzZWKjLxbFA" name="System_View" description="[EN:Viewer User][FR:Viewer User]" timestamp="1521523075331" digestValue="227f17c0b60ac840959ca17c9edb43cd" lastServerName="MDM_Sandbox">
+  <specification xmi:id="_hFbz8eSkEeeLzZWKjLxbFA" objectType="Transformer V2">
+    <instance xmi:id="_hFbz8uSkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFbz8-SkEeeLzZWKjLxbFA" objectType="Data Cluster">
+    <instance xmi:id="_hFbz9OSkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFbz9eSkEeeLzZWKjLxbFA" admin="true" objectType="Transformer"/>
+  <specification xmi:id="_hFbz9uSkEeeLzZWKjLxbFA" objectType="Routing Order V2 Active"/>
+  <specification xmi:id="_hFbz9-SkEeeLzZWKjLxbFA" objectType="Service">
+    <instance xmi:id="_hFbz-OSkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFbz-eSkEeeLzZWKjLxbFA" objectType="Stored Procedure">
+    <instance xmi:id="_hFbz-uSkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFbz--SkEeeLzZWKjLxbFA" objectType="View">
+    <instance xmi:id="_hFbz_OSkEeeLzZWKjLxbFA" instanceName="Browse_items_.*"/>
+    <instance xmi:id="_hFbz_eSkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFbz_uSkEeeLzZWKjLxbFA" objectType="Routing Rule">
+    <instance xmi:id="_hFbz_-SkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFb0AOSkEeeLzZWKjLxbFA" objectType="Background Job">
+    <instance xmi:id="_hFb0AeSkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFb0AuSkEeeLzZWKjLxbFA" objectType="Role">
+    <instance xmi:id="_hFb0A-SkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFb0BOSkEeeLzZWKjLxbFA" objectType="Item">
+    <instance xmi:id="_hFb0BeSkEeeLzZWKjLxbFA" instanceName=".*.*.*"/>
+  </specification>
+  <specification xmi:id="_hFb0BuSkEeeLzZWKjLxbFA" objectType="Routing Engine V2"/>
+  <specification xmi:id="_hFb0B-SkEeeLzZWKjLxbFA" objectType="Data Model">
+    <instance xmi:id="_hFb0COSkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFb0CeSkEeeLzZWKjLxbFA" objectType="Transformer Plugin V2">
+    <instance xmi:id="_hFb0CuSkEeeLzZWKjLxbFA" instanceName=".*"/>
+  </specification>
+  <specification xmi:id="_hFcbAOSkEeeLzZWKjLxbFA" objectType="Routing Order V2 Failed"/>
+  <specification xmi:id="_hFcbAeSkEeeLzZWKjLxbFA" admin="true" objectType="Transformer Plugin"/>
+  <specification xmi:id="_hFcbAuSkEeeLzZWKjLxbFA" objectType="Menu">
+    <instance xmi:id="_hFcbA-SkEeeLzZWKjLxbFA" instanceName="Hierarchy">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_hFcbBOSkEeeLzZWKjLxbFA" instanceName="Search">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_hFcbBeSkEeeLzZWKjLxbFA" instanceName="WelcomePortal">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="0"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_hFcbBuSkEeeLzZWKjLxbFA" instanceName="RecycleBin">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_hFcbB-SkEeeLzZWKjLxbFA" instanceName="UpdateReport">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance xmi:id="_hFcbCOSkEeeLzZWKjLxbFA" instanceName="BrowseRecords">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+  </specification>
+  <specification xmi:id="_hFcbCeSkEeeLzZWKjLxbFA" objectType="Routing Order V2 Completed"/>
+  <specification xmi:id="_hFcbCuSkEeeLzZWKjLxbFA" objectType="Configuration Info"/>
+</mdmserverobject:WSRoleE>
