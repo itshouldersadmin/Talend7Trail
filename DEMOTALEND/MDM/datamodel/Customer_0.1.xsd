@@ -1,5 +1,4 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<xsd:import namespace="http://www.w3.org/2001/XMLSchema"/>
 <xsd:element name="CustomerMaster">
         <xsd:annotation>
 <xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
@@ -35,8 +34,8 @@
 </xsd:element>
 <xsd:element maxOccurs="1" minOccurs="0" name="HierarchyId" type="xsd:string">
 <xsd:annotation>
-<xsd:appinfo source="X_ForeignKey">CustomerMaster/CustomerMasterId</xsd:appinfo>
-<xsd:appinfo source="X_ForeignKey_NotSep">true</xsd:appinfo>
+
+
 <xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
 <xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
 </xsd:annotation>
@@ -47,13 +46,13 @@
 <xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element maxOccurs="1" minOccurs="0" name="Fax" type="xsd:string">
+                <xsd:element maxOccurs="1" minOccurs="0" name="Fax" type="xsd:string">
 <xsd:annotation>
 <xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
 <xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element maxOccurs="1" minOccurs="0" name="Clientid__c" type="xsd:string">
+                <xsd:element maxOccurs="1" minOccurs="0" name="Clientid__c" type="xsd:string">
 <xsd:annotation>
 <xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
 <xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
