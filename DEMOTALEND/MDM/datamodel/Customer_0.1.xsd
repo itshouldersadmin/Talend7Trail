@@ -1,0 +1,146 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:import namespace="http://www.w3.org/2001/XMLSchema"/>
+<xsd:element name="CustomerMaster">
+        <xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+        <xsd:complexType>
+<xsd:all>
+<xsd:element name="CustomerMasterId" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="SystemId" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+<xsd:appinfo source="X_Hide">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Hide">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="Name" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="Address" type="BillingAddress">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="HierarchyId" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_ForeignKey">CustomerMaster/CustomerMasterId</xsd:appinfo>
+<xsd:appinfo source="X_ForeignKey_NotSep">true</xsd:appinfo>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="Phone" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="Fax" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="Clientid__c" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="EncompassType" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="CompanyType" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="MdmCreatedDate" type="xsd:dateTime">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="MdmUpdatedDate" type="xsd:dateTime">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="ExecutiveContactEmail__c" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:all>
+</xsd:complexType>
+<xsd:unique name="CustomerMaster">
+<xsd:selector xpath="."/>
+<xsd:field xpath="CustomerMasterId"/>
+</xsd:unique>
+</xsd:element>
+<xsd:complexType name="BillingAddress">
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="Street" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="City" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="State" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="Zip" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="Country" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">datasteward</xsd:appinfo>
+<xsd:appinfo source="X_Write">Dataowner</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="ShippingAddress">
+<xsd:complexContent>
+<xsd:extension base="BillingAddress">
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="ShippingStreet" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="ShippingCity" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="ShippingState" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="ShippingZip" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="ShippingCountry" type="xsd:string"/>
+</xsd:sequence>
+</xsd:extension>
+</xsd:complexContent>
+</xsd:complexType>
+</xsd:schema>
