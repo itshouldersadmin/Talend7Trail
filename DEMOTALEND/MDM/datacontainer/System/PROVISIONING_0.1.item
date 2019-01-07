@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><mdmserverobject:WSDataClusterE xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmlns:xmi="http://www.omg.org/XMI" description="Holds users and roles data" lastServerName="MDMSandBox" name="PROVISIONING" vocabulary="production&#10;9bd2dbdf7fbdf7c9770edd3f0383c148&#10;area&#10;01454545&#10;acme&#10;paper&#10;mill&#10;com&#10;no&#10;yes&#10;home&#10;manager&#10;xtentiswrite&#10;shipperadministrator&#10;shipper&#10;cm&#10;internalyardmanager&#10;georges&#10;harrison&#10;internal&#10;yard&#10;plantsplc&#10;fleetmanager&#10;paul&#10;mccartney&#10;rail&#10;fleet&#10;commoditycode&#10;fleetman&#10;ringo&#10;star&#10;cxvv&#10;9df62e693988eb4e1e1444ece0578579&#10;xcv&#10;cxvxcvxc&#10;commodity&#10;syr&#10;wir&#10;4c38b6b1835c6934dc866ef3dd858bc6&#10;manufacturer&#10;productionareamanager&#10;f0219b79b7f64349b3eebd6ce524423d&#10;john&#10;lennon&#10;nat&#10;d933df149c62be04ea54d3a9bfb0372c&#10;010101&#10;iym&#10;elton&#10;plant&#10;is&#10;responsible&#10;for&#10;location&#10;and&#10;switching&#10;the&#10;cars&#10;inside&#10;block&#10;definition&#10;plants&#10;adminisrates&#10;information&#10;admin&#10;users&#10;fleets&#10;adapting&#10;car&#10;loads&#10;to&#10;plans&#10;search&#10;spotted&#10;available&#10;equipment&#10;en&#10;route&#10;manages&#10;of&#10;within&#10;organization&#10;hold&#10;status&#10;off&#10;serving&#10;yards&#10;xtentisread&#10;can&#10;mdmmdmpolk&#10;663079b2cb2780fae8562e6e4eddcab7&#10;utilisateur&#10;démo&#10;bruno&#10;sviaud&#10;sébastien&#10;amalto&#10;sebastien&#10;fr&#10;assignment&#10;jpleroux&#10;e014179fcbfe3fea88dba85d6b64298d&#10;adminimerys&#10;imerystc&#10;userimerys&#10;68c5a6ea410894bcd09b97c44cef4dc0&#10;jaina&#10;proudmoore&#10;david&#10;efzf&#10;hjh&#10;hjhjh&#10;b2box&#10;140f838fa144969885bd48c70e7a125f&#10;test&#10;user&#10;router&#10;reporting&#10;services&#10;connectors&#10;mgt&#10;httpsinbound&#10;role&#10;assign&#10;roles&#10;usersandroles&#10;alban&#10;05eb26d87e6361dc7c8ed07b9db7911d&#10;saintguilhem&#10;null&#10;access&#10;toto&#10;subscription&#10;engine&#10;subscriptionengine&#10;cross&#10;referencing&#10;crossreferencing&#10;f71dbe52628a3f83a77ab494817525c6&#10;management&#10;quadremsupplier&#10;smtpservice&#10;loggingservice&#10;rtmjde&#10;pepsismtpservice&#10;quadrembuyer&#10;aribasupplier&#10;scheduler&#10;bb40452efd3a0dd7dfb32d8a885cbe70&#10;transformer&#10;plugins&#10;plugin&#10;viewer&#10;sai&#10;contributor&#10;contrib&#10;ethiriez&#10;d3ede37ee75cac485babed12fd745135&#10;emmanuel" xmi:id="_3dFq8BJ6EemTXK9A6tMFbQ" xmi:version="2.0"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_40d0bba4-25cd-44de-84d6-700e535f72f5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UrHxgzuXrovM2QsfpMIgtPlEfk8WT7/hYXBdpbKas0bIjmkErx5tUlZfqW6OZdD2d2cmtT0QItMy
+U0HYc4K3Jg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1dbb2bc2-b30e-4409-afe0-4f1cd3f4f4dd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Y+A7toyfdlIc6UsZPuvvCYc4EklxYio1cicn+Jsd1W0rOHUU7rEo3OsN75v2EtCEGmttKT0BDJ/k
+PCR0iHHNSA==</DigestValue></Reference></SignedInfo><SignatureValue>3RXzeABqOOLwekxZsdRtiyJ02BjEB/DoCrniKCkEHJT5xrlRXxrEBTxxSxa7xowldKSWfw3X8Ci3
+nsm0MjH5AFo4jSz8VcyUWjhu1EARKKs97nqeqE9e/YvpjSHY4GJlai5xll3IzEU9oEROX21QfuwI
+rEpe1nDZUOhlutO+neYbIFnkB1kFtn3ypJOu1HBgL/lda5Y/d738YEeAIhibNRgEbXtONWVH+/19
+j8V8xPmJ//yLNuiJvox2mXKuOKUAyrt86jK+8KKMxsvozYpmd6PJpOObDKffEjls+6+gM05SylFQ
+HusmGoiufhjbcOViBgjx1Qx9EfutB2jrFoaVPg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1dbb2bc2-b30e-4409-afe0-4f1cd3f4f4dd" Target="#_40d0bba4-25cd-44de-84d6-700e535f72f5"><Timestamp>2019-01-07 12:50:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></mdmserverobject:WSDataClusterE>
